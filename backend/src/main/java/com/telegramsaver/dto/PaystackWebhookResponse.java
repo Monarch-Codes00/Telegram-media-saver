@@ -1,4 +1,4 @@
-package com.whatsappsaver.dto;
+package com.telegramsaver.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

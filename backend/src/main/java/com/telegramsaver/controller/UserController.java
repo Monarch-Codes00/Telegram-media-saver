@@ -1,7 +1,7 @@
-package com.whatsappsaver.controller;
+package com.telegramsaver.controller;
 
-import com.whatsappsaver.model.User;
-import com.whatsappsaver.repository.UserRepository;
+import com.telegramsaver.model.User;
+import com.telegramsaver.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

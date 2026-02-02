@@ -1,10 +1,10 @@
-package com.whatsappsaver.service;
+package com.telegramsaver.service;
 
-import com.whatsappsaver.dto.PaystackWebhookResponse;
-import com.whatsappsaver.model.Payment;
-import com.whatsappsaver.model.User;
-import com.whatsappsaver.repository.PaymentRepository;
-import com.whatsappsaver.repository.UserRepository;
+import com.telegramsaver.dto.PaystackWebhookResponse;
+import com.telegramsaver.model.Payment;
+import com.telegramsaver.model.User;
+import com.telegramsaver.repository.PaymentRepository;
+import com.telegramsaver.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

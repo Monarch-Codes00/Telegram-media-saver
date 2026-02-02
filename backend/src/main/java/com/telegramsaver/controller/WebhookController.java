@@ -1,7 +1,7 @@
-package com.whatsappsaver.controller;
+package com.telegramsaver.controller;
 
-import com.whatsappsaver.dto.PaystackWebhookResponse;
-import com.whatsappsaver.service.PaymentService;
+import com.telegramsaver.dto.PaystackWebhookResponse;
+import com.telegramsaver.service.PaymentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
