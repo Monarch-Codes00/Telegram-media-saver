@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --primary: #25d366;
-  --secondary: #128c7e;
-  --dark: #075e54;
-  --light: #dcf8c6;
-  --bg: #0b141a;
-  --card-bg: rgba(32, 44, 51, 0.8);
-  --text-primary: #e9edef;
-  --text-secondary: #8696a0;
+  --primary: #0088cc;
+  --secondary: #24A1DE;
+  --dark: #17212b;
+  --light: #eff7ff;
+  --bg: #0e1621;
+  --card-bg: rgba(23, 33, 43, 0.8);
+  --text-primary: #f5f5f5;
+  --text-secondary: #708499;
   --font-main: "Outfit", sans-serif;
 }
 
@@ -35,13 +35,13 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+  background: linear-gradient(135deg, #0088cc 0%, #24A1DE 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+  background: linear-gradient(135deg, #0088cc 0%, #24A1DE 100%);
   color: white;
   border: none;
   padding: 12px 30px;
@@ -57,7 +57,7 @@ body {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(37, 211, 102, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 136, 204, 0.3);
 }
 
 .container {
